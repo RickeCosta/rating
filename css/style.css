@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+
+body{
+    font-family: 'Overpass', sans-serif;
+    font-size: 14px;
+    background: hsl(216,12%,8%);
+    color: #fff;
+    background: #131418
+   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card-container{
+    padding-top: 4px;
+    
+}
+.card-star{
+    display: inline-block;
+    margin: 0 14px;
+    background:hsl(212, 17%,20%);
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+.card-star img{
+    display: block;
+    width: 14px;
+}
+
+.card{
+    width: 32ch;
+    height: 30ch;
+    background: hsl(213, 19%, 18%);
+    padding: 20px;
+    border-radius: 20px;
+   
+}
+.card-text{
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.card-text h1{
+    display: inline-block;
+    margin-left: 14px;
+    font-size: 18px;
+}
+.card-text p{
+    margin: 0 14px;
+    font-size: 12px;
+    color: hsl(217, 12%, 63%);
+
+}
+
+
+.btn-card{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.btn-card button{
+    color: hsl(217, 12%, 63%);
+    padding: 15px;
+    background: hsl(212, 17%,20%);
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin: 5px;   
+    cursor: pointer; 
+}
+
+/* state hover */
+.btn-card button:hover{
+    background: hsl(212, 25%,30%);  
+    color: #fff;
+}
+/* state active */
+
+div .ativado {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    transition: all 0.0s;
+    
+}
+.btn-card p{
+    justify-content: center;
+}
+
+.bt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.submit{
+    padding:  10px 100px ;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.submit:hover{
+    background-color: #fff;
+    color:hsl(25, 97%, 53%) ;
+}
+
+
+
+/* Aqui é o card seletor */
+
+.seletor p {
+    
+    margin:  0 auto;
+    background:hsl(213, 19%, 28%);
+    padding: 5px 5px;
+    border-radius: 20px;
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+    margin-bottom: 20px;
+}
+
+
+.seletor {
+    display: flex;
+    justify-content: center;
+}
+
+.thank-img{
+    width: 120px;
+    display: flex;
+   margin: 0 auto;
+   margin-top: 10px;
+}
+
+
+.seletor p {
+    margin-top: 20px;
+
+}
+
+.thank-you{
+    font-size: 18px;
+    text-align: center;
+}
+
+.text-thank p{
+    margin: 0 14px;
+    font-size: 12px;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+
+}
+
+.remover{
+    display: none;
+}
+
+
+
+.ativo{
+    display: block;
+}
+
+
+
+.rating-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    
+}
